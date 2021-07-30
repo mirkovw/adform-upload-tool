@@ -285,7 +285,7 @@ module.exports = class AdformAPI {
 
     async getOperationResult(correlationId = '') {
         if (!this.access_token) return { success:false, error: { reason: 'No access token. Log in first.'}};
-        const url = "https://api.adform.com/api/v1/Assets/OperationResults/"+correlationId;
+        const url = "https://api.adform.com/api/v1/AssetBanners/OperationResults/"+correlationId;
 
         // GET /api/v1/Assets/OperationResults/{correlationId}
 
