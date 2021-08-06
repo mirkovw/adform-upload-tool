@@ -6,10 +6,10 @@ module.exports = class AdformAPI {
     constructor(settings) {
         this.adformApi = axios.create({
             baseURL: 'https://api.adform.com/',
-            proxy: {
-                host: 'localhost',
-                port: 8888
-            }
+            // proxy: {
+            //     host: 'localhost',
+            //     port: 8888
+            // }
         })
     }
 
