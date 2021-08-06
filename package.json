@@ -1,6 +1,6 @@
 {
   "name": "adform-upload-tool",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Javascript application that handles uploading HTML assets to Adform",
   "main": "src/index.js",
   "scripts": {
